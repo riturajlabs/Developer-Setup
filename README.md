@@ -1,6 +1,10 @@
 # 🚀 Developer Setup Automation Toolkit
 
+<p align="center">
 
+<img src="docs/assets/terminal-banner.png" width="900"/>
+
+</p>
 
 <p align="center">
 
