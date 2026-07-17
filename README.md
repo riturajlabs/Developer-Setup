@@ -1,12 +1,6 @@
 # 🚀 Developer Setup Automation Toolkit
 
 
-<p align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&height=240&color=0:0B1026,40:2563EB,100:60A5FA&text=Developer%20Setup%20Toolkit&fontSize=45&fontColor=ffffff&fontAlignY=35&desc=Automated%20Development%20Environment%20Provisioning&descAlignY=60&descSize=22"/>
-
-</p>
-
 
 <p align="center">
 
@@ -16,7 +10,7 @@ One command to setup your complete developer environment.
 
 <br>
 
-From Web Development, AI/ML, Databases to DevOps — automate everything with a modular Bash toolkit.
+Automate Web Development, AI/ML, Databases, and DevOps environment setup with a modular Bash automation toolkit.
 
 </p>
 
@@ -52,54 +46,56 @@ From Web Development, AI/ML, Databases to DevOps — automate everything with a 
 # 📖 Overview
 
 
-**Developer Setup Automation Toolkit** is a modular Bash-based automation framework designed to configure a complete professional development environment automatically.
+**Developer Setup Automation Toolkit** is a modular Bash-based automation framework designed to configure a complete professional developer environment automatically.
 
 
-Instead of spending hours installing and configuring tools manually, this toolkit provides a repeatable setup workflow for developers.
+Instead of manually installing and configuring every tool, this toolkit provides a repeatable and customizable setup workflow.
 
 
-It supports:
+It helps developers quickly configure:
 
 
-- 🌐 Full Stack Web Development
-- 🤖 Artificial Intelligence & Machine Learning
-- 🗄 Database Development
-- 🐳 DevOps Environment
-- 🛠 Developer Productivity Tools
+- 🌐 Full Stack Web Development Environment
+- 🤖 Artificial Intelligence & Machine Learning Environment
+- 🗄 Database Development Environment
+- 🐳 DevOps Tools and Services
+- 🛠 Developer Productivity Utilities
 
 
-The goal:
+The main goal:
 
 
-> Setup once. Build faster. Focus on development.
+> Setup once. Configure automatically. Start building faster.
 
 
 ---
 
+
 # 💡 Why This Project?
 
 
-Setting up a new development machine is repetitive and time-consuming.
+Setting up a development machine from scratch requires installing and configuring many tools manually.
 
 
-Developers usually need to install:
+Developers usually need:
 
 
 - Programming languages
 - Package managers
 - Databases
-- Development tools
+- AI/ML libraries
+- Development utilities
 - Terminal customization
-- AI libraries
 - Docker environment
 - Editor configuration
 
 
-This toolkit solves that problem by providing:
+This toolkit reduces repetitive setup work by providing:
 
 
 ✅ Automated installation  
 ✅ Modular architecture  
+✅ Custom setup options  
 ✅ Environment verification  
 ✅ Troubleshooting utilities  
 ✅ Safe updates  
@@ -107,6 +103,7 @@ This toolkit solves that problem by providing:
 
 
 ---
+
 
 # ✨ Key Features
 
@@ -118,19 +115,20 @@ Automatically configures:
 
 
 - Ubuntu packages
-- Essential CLI tools
+- Essential CLI utilities
 - Zsh terminal
 - Powerlevel10k theme
 - Git environment
+- Developer workspace
 
 
 ---
 
 
-## 🌐 Web Development Environment
+# 🌐 Web Development Environment
 
 
-Supports modern full-stack development:
+Provides a complete modern full-stack development environment.
 
 
 | Technology | Included |
@@ -145,44 +143,44 @@ Supports modern full-stack development:
 | Redis | ✅ |
 
 
-Perfect for:
+Designed for:
 
 
-- MERN applications
-- Backend APIs
-- Full-stack projects
-- Database applications
+- MERN Stack Development
+- Backend API Development
+- Full Stack Applications
+- Database Driven Projects
 
 
 ---
 
 
-## 🤖 AI / Machine Learning Environment
+# 🤖 AI / Machine Learning Environment
 
 
-Creates a complete Python AI ecosystem:
+Creates a complete Python AI development ecosystem.
 
 
 | Library | Purpose |
 |---|---|
 | NumPy | Numerical Computing |
 | Pandas | Data Analysis |
-| Matplotlib | Visualization |
+| Matplotlib | Data Visualization |
 | Scikit-learn | Machine Learning |
 | PyTorch | Deep Learning |
 | OpenCV | Computer Vision |
-| Transformers | NLP & LLMs |
-| LangChain | LLM Applications |
-| LangGraph | AI Agents |
+| Transformers | NLP & LLM Applications |
+| LangChain | LLM Application Development |
+| LangGraph | AI Agent Workflows |
 | LlamaIndex | Data Framework |
-| FAISS | Vector Search |
+| FAISS | Vector Similarity Search |
 | ChromaDB | Vector Database |
 
 
-Designed for:
+Useful for:
 
 
-- Machine Learning
+- Machine Learning Projects
 - Deep Learning
 - Computer Vision
 - Generative AI
@@ -193,17 +191,17 @@ Designed for:
 ---
 
 
-## 🐳 DevOps Environment
+# 🐳 DevOps Environment
 
 
-Includes:
+Includes essential DevOps tooling:
 
 
 - Docker
 - Docker Compose
 - GitHub CLI
 - Lazygit
-- Developer utilities
+- Developer CLI utilities
 
 
 Useful for:
@@ -212,6 +210,7 @@ Useful for:
 - Container development
 - Deployment workflows
 - DevOps learning
+- Cloud-ready development
 
 
 ---
@@ -222,7 +221,7 @@ Useful for:
 
 | Category | Technologies |
 |---|---|
-| OS | Ubuntu 22.04 / 24.04, WSL2 |
+| Operating System | Ubuntu 22.04 / 24.04, WSL2 |
 | Shell | Bash, Zsh |
 | Terminal | Powerlevel10k |
 | Runtime | Node.js, Python |
@@ -241,7 +240,16 @@ Useful for:
 # 🏗 Architecture Overview
 
 
-The toolkit follows a modular architecture where every setup component works as an independent module.
+The Developer Setup Automation Toolkit follows a **modular architecture** where every setup component works as an independent module.
+
+
+Each module handles a specific responsibility, making the toolkit easy to maintain, customize, and extend.
+
+
+---
+
+
+# 🔄 System Architecture
 
 
 ```mermaid
@@ -269,29 +277,85 @@ C --> D
 D --> E
 
 E --> F
+```
 
-```md
+
 ---
 
 
-Architecture principles:
+# 🧩 Architecture Principles
 
 
 | Principle | Description |
 |---|---|
 | 🧩 Modular | Every component has independent installation scripts |
-| 🛡 Safe | Detects existing installations before changes |
+| 🛡 Safe | Detects existing installations before making changes |
 | ♻️ Reusable | Scripts can run independently |
 | 🚀 Extensible | Easy to add new technologies |
-| 👨‍💻 Developer Friendly | Includes verification and diagnostic tools |
-
-
-Detailed architecture:
-
-➡️ [Architecture Documentation](docs/ARCHITECTURE.md)
+| 🔍 Verifiable | Includes verification and diagnostic tools |
+| 👨‍💻 Developer Friendly | Easy to customize and maintain |
 
 
 ---
+
+
+# 🔄 Installation Workflow
+
+
+The toolkit follows a structured automation workflow:
+
+
+```text
+Developer
+
+    ↓
+
+Run install.sh
+
+    ↓
+
+Check System Requirements
+
+    ↓
+
+Install Base Dependencies
+
+    ↓
+
+Configure Development Environment
+
+    ↓
+
+Setup Programming Languages
+
+    ↓
+
+Install Databases
+
+    ↓
+
+Configure AI/ML Environment
+
+    ↓
+
+Setup Docker & DevOps Tools
+
+    ↓
+
+Configure VS Code
+
+    ↓
+
+Verify Environment
+
+    ↓
+
+Ready for Development 🚀
+```
+
+
+---
+
 
 # 📂 Project Structure
 
@@ -300,37 +364,342 @@ Detailed architecture:
 Developer-Setup/
 
 │
-├── install.sh              # Main installation controller
-├── verify.sh               # Environment verification
-├── doctor.sh               # Troubleshooting utility
-├── update.sh               # Update system
-├── uninstall.sh            # Cleanup utility
+├── install.sh                 # Main installation controller
+├── verify.sh                  # Environment verification
+├── doctor.sh                  # Troubleshooting utility
+├── update.sh                  # Update system components
+├── uninstall.sh               # Cleanup utility
 │
 ├── scripts/
 │
-│   ├── 01-base.sh          # Ubuntu packages
-│   ├── 02-terminal.sh      # Zsh + Powerlevel10k
-│   ├── 03-git.sh           # Git configuration
-│   ├── 04-node.sh          # Node.js ecosystem
-│   ├── 05-postgresql.sh    # PostgreSQL setup
-│   ├── 06-mongodb.sh       # MongoDB setup
-│   ├── 07-redis.sh         # Redis setup
-│   ├── 08-python.sh        # Python environment
-│   ├── 09-ai.sh            # AI/ML environment
-│   ├── 10-docker.sh        # Docker setup
-│   ├── 11-vscode.sh        # VS Code setup
-│   ├── 12-devtools.sh      # Developer tools
-│   └── 13-workspace.sh     # Workspace creation
+│   ├── 01-base.sh             # Ubuntu packages and CLI tools
+│   ├── 02-terminal.sh         # Zsh + Powerlevel10k setup
+│   ├── 03-git.sh              # Git configuration
+│   ├── 04-node.sh             # Node.js ecosystem
+│   ├── 05-postgresql.sh       # PostgreSQL setup
+│   ├── 06-mongodb.sh          # MongoDB setup
+│   ├── 07-redis.sh            # Redis setup
+│   ├── 08-python.sh           # Python environment
+│   ├── 09-ai.sh               # AI/ML environment
+│   ├── 10-docker.sh           # Docker setup
+│   ├── 11-vscode.sh           # VS Code setup
+│   ├── 12-devtools.sh         # Developer utilities
+│   └── 13-workspace.sh        # Workspace creation
 │
-├── config/                 # Configuration files
+├── config/                    # Configuration files
 │
-├── docs/                   # Detailed documentation
+├── docs/                      # Documentation files
 │
-├── logs/                   # Installation logs
+├── logs/                      # Runtime installation logs
 │
 ├── CHANGELOG.md
 ├── LICENSE
 └── README.md
+```
+
+
+---
+
+
+# ⚙️ Module Overview
+
+
+## 🖥 Base System Setup
+
+
+Script:
+
+```bash
+scripts/01-base.sh
+```
+
+
+Responsible for:
+
+
+- Ubuntu package updates
+- Essential CLI tools
+- System utilities
+- Basic dependencies
+
+
+---
+
+
+## 🎨 Terminal Customization
+
+
+Script:
+
+```bash
+scripts/02-terminal.sh
+```
+
+
+Includes:
+
+
+- Zsh installation
+- Oh My Zsh
+- Powerlevel10k theme
+- Terminal configuration
+
+
+---
+
+
+## 🔧 Git Configuration
+
+
+Script:
+
+```bash
+scripts/03-git.sh
+```
+
+
+Configures:
+
+
+- Git installation
+- User configuration
+- Developer Git environment
+
+
+---
+
+
+## 🌐 Node.js Development Environment
+
+
+Script:
+
+```bash
+scripts/04-node.sh
+```
+
+
+Installs:
+
+
+- Node.js
+- npm
+- pnpm
+- Bun
+- Nodemon
+
+
+---
+
+
+## 🗄 Database Environment
+
+
+Scripts:
+
+
+```text
+scripts/05-postgresql.sh
+
+scripts/06-mongodb.sh
+
+scripts/07-redis.sh
+```
+
+
+Provides:
+
+
+- PostgreSQL database
+- MongoDB database
+- Redis caching system
+
+
+---
+
+
+## 🐍 Python Environment
+
+
+Script:
+
+
+```bash
+scripts/08-python.sh
+```
+
+
+Creates:
+
+
+- Python development environment
+- Virtual environment setup
+- Python tooling
+
+
+---
+
+
+## 🤖 AI / ML Environment
+
+
+Script:
+
+
+```bash
+scripts/09-ai.sh
+```
+
+
+Provides:
+
+
+- NumPy
+- Pandas
+- Scikit-learn
+- PyTorch
+- OpenCV
+- Transformers
+- LangChain
+- LangGraph
+- LlamaIndex
+- FAISS
+- ChromaDB
+
+
+---
+
+
+## 🐳 Docker Environment
+
+
+Script:
+
+
+```bash
+scripts/10-docker.sh
+```
+
+
+Installs and configures:
+
+
+- Docker Engine
+- Docker Compose
+- Container development environment
+
+
+---
+
+
+## 💻 VS Code Setup
+
+
+Script:
+
+
+```bash
+scripts/11-vscode.sh
+```
+
+
+Configures:
+
+
+- VS Code CLI
+- Developer extensions
+- WSL integration
+
+
+---
+
+
+## 🛠 Developer Tools
+
+
+Script:
+
+
+```bash
+scripts/12-devtools.sh
+```
+
+
+Includes:
+
+
+- GitHub CLI
+- Lazygit
+- HTTPie
+- YAML utilities
+
+
+---
+
+
+## 📁 Workspace Setup
+
+
+Script:
+
+
+```bash
+scripts/13-workspace.sh
+```
+
+
+Creates:
+
+
+- Developer workspace
+- Project templates
+- Learning directories
+- Development structure
+
+
+---
+
+
+# 🔍 Verification Architecture
+
+
+The toolkit includes two diagnostic systems:
+
+
+## verify.sh
+
+
+Checks:
+
+
+- Installed tools
+- Runtime versions
+- Database connections
+- Python packages
+- Docker availability
+- VS Code setup
+
+
+## doctor.sh
+
+
+Checks:
+
+
+- Environment problems
+- PATH configuration
+- Missing dependencies
+- Service issues
+- Configuration problems
+
+
+---
+
+
+Detailed architecture documentation:
+
+
+➡️ [Architecture Documentation](docs/ARCHITECTURE.md)
 
 
 ---
@@ -341,24 +710,37 @@ Developer-Setup/
 Setup your complete developer environment with a simple automated workflow.
 
 
-## 📋 Requirements
+The toolkit provides an interactive installation process that allows you to choose between a complete setup or specific development environments.
+
+
+---
+
+
+# 📋 Requirements
+
+
+Before starting, make sure your system meets the following requirements:
 
 
 | Requirement | Details |
 |---|---|
 | Operating System | Ubuntu 22.04 / 24.04 |
 | Windows Support | WSL2 |
-| Internet | Required |
-| Permissions | sudo access |
+| Internet Connection | Required |
+| User Permission | sudo access |
+| Shell | Bash / Zsh |
 
 
 ---
 
 
-# 📥 Installation
+# 📥 Installation Guide
 
 
-## Clone Repository
+## 1. Clone Repository
+
+
+Clone the repository from GitHub:
 
 
 ```bash
@@ -371,26 +753,25 @@ cd Developer-Setup
 ---
 
 
-## Give Execute Permission
+## 2. Give Execute Permission
+
+
+Make all scripts executable:
 
 
 ```bash
 chmod +x *.sh
-```
-
-
-or
-
-
-```bash
-chmod +x install.sh verify.sh doctor.sh update.sh uninstall.sh
+chmod +x scripts/*.sh
 ```
 
 
 ---
 
 
-## Run Installer
+## 3. Run Installer
+
+
+Start the automated setup:
 
 
 ```bash
@@ -398,7 +779,7 @@ chmod +x install.sh verify.sh doctor.sh update.sh uninstall.sh
 ```
 
 
-The interactive installer menu:
+The installer provides an interactive menu:
 
 
 ```text
@@ -446,17 +827,11 @@ Choose the environment according to your development requirements.
 | Mode | Purpose |
 |---|---|
 | 🚀 Full Developer Setup | Complete development environment |
-| 🌐 Web Development Setup | MERN stack and backend ecosystem |
+| 🌐 Web Development Setup | Node.js ecosystem and full-stack tools |
 | 🤖 AI / ML Setup | Python AI and Machine Learning environment |
 | 🗄 Database Setup | PostgreSQL, MongoDB and Redis services |
-| 🐳 DevOps Setup | Docker and DevOps tools |
+| 🐳 DevOps Setup | Docker and container tools |
 | ⚙️ Custom Setup | Select required components |
-
-
-Detailed installation guide:
-
-
-➡️ [Installation Documentation](docs/INSTALLATION.md)
 
 
 ---
@@ -537,9 +912,9 @@ Example output:
 [SUCCESS] VS Code
 
 
-Passed : 36
+Passed : XX
 
-Failed : 0
+Failed : XX
 
 
 Environment Ready 🚀
@@ -548,7 +923,6 @@ Environment Ready 🚀
 =================================
 ```
 
----
 
 ---
 
@@ -556,7 +930,7 @@ Environment Ready 🚀
 # 🩺 Doctor Tool
 
 
-The Doctor utility helps developers diagnose and troubleshoot development environment issues.
+The Doctor utility helps developers diagnose and troubleshoot environment issues.
 
 
 Run:
@@ -571,7 +945,7 @@ The Doctor tool checks:
 
 
 - Environment configuration
-- PATH issues
+- PATH configuration
 - Missing dependencies
 - Broken installations
 - Database services
@@ -580,10 +954,35 @@ The Doctor tool checks:
 - VS Code integration
 
 
-Detailed troubleshooting:
+Example:
 
 
-➡️ [Troubleshooting Guide](docs/TROUBLESHOOTING.md)
+```text
+=================================
+
+ Developer Environment Doctor
+
+=================================
+
+
+[SUCCESS] WSL environment detected
+
+[SUCCESS] Node environment
+
+[SUCCESS] Database services
+
+[SUCCESS] Python AI environment
+
+[SUCCESS] Docker
+
+[SUCCESS] VS Code
+
+
+Issues Found : 0
+
+
+Your developer environment is healthy 🚀
+```
 
 
 ---
@@ -592,7 +991,7 @@ Detailed troubleshooting:
 # 🔄 Update System
 
 
-Keep your development environment updated with the update utility.
+Keep your development environment updated using the update utility.
 
 
 Run:
@@ -627,6 +1026,16 @@ Toolkit Updates
 ```
 
 
+The update system handles:
+
+
+- Ubuntu package updates
+- Node package updates
+- Python environment updates
+- Docker cleanup
+- Toolkit maintenance
+
+
 ---
 
 
@@ -644,10 +1053,17 @@ Run:
 ```
 
 
-Available options:
+Available cleanup options:
 
 
 ```text
+=================================
+
+ Developer Setup Uninstaller
+
+=================================
+
+
 1) Remove Developer Tools
 
 2) Remove Node Environment
@@ -663,6 +1079,9 @@ Available options:
 7) Full Cleanup
 
 0) Exit
+
+
+=================================
 ```
 
 
@@ -677,9 +1096,22 @@ Safety features:
 
 ✅ Detailed cleanup logs
 
+✅ Prevents accidental cleanup
+
 
 ---
 
+
+# 📚 Installation Documentation
+
+
+For detailed installation instructions:
+
+
+➡️ [Installation Documentation](docs/INSTALLATION.md)
+
+
+---
 
 # 📚 Documentation
 
@@ -687,18 +1119,20 @@ Safety features:
 Complete documentation is available inside the `docs/` directory.
 
 
+The documentation covers installation, architecture, customization, troubleshooting, and contribution guidelines.
+
+
 | Document | Description |
 |---|---|
 | [INSTALLATION.md](docs/INSTALLATION.md) | Complete installation guide |
 | [ARCHITECTURE.md](docs/ARCHITECTURE.md) | System architecture details |
-| [CUSTOMIZATION.md](docs/CUSTOMIZATION.md) | Add new technologies |
-| [TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md) | Fix common problems |
+| [CUSTOMIZATION.md](docs/CUSTOMIZATION.md) | Add or modify setup modules |
+| [TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md) | Common issues and solutions |
 | [CONTRIBUTING.md](docs/CONTRIBUTING.md) | Contribution guidelines |
 
 
 ---
 
----
 
 # 🛣 Roadmap
 
@@ -712,7 +1146,7 @@ Complete documentation is available inside the `docs/` directory.
 - [x] Terminal customization
 - [x] Zsh + Powerlevel10k setup
 - [x] Git automation
-- [x] Node.js environment
+- [x] Node.js development environment
 - [x] PostgreSQL setup
 - [x] MongoDB setup
 - [x] Redis setup
@@ -720,6 +1154,7 @@ Complete documentation is available inside the `docs/` directory.
 - [x] AI/ML libraries setup
 - [x] Docker integration
 - [x] VS Code automation
+- [x] Developer utilities setup
 - [x] Verification system
 - [x] Doctor troubleshooting tool
 - [x] Safe uninstall system
@@ -738,11 +1173,13 @@ Complete documentation is available inside the `docs/` directory.
 - [ ] Kubernetes Automation
 - [ ] Terraform Setup
 - [ ] Cloud CLI Integration
-- [ ] CI/CD Templates
+- [ ] CI/CD Pipeline Templates
 - [ ] GUI Installer
 - [ ] Configuration-based installation
+- [ ] Profile-based setup system
 - [ ] Multi Linux distribution support
 - [ ] Backup and restore system
+- [ ] Interactive setup wizard
 
 
 ---
@@ -763,11 +1200,13 @@ Security features:
 
 ✅ No hidden scripts
 
-✅ User confirmation before destructive actions
+✅ User confirmation before destructive operations
 
 ✅ Detailed installation logs
 
 ✅ Error handling and validation
+
+✅ Modular execution flow
 
 
 The installation workflow follows:
@@ -803,10 +1242,16 @@ Verify
 Contributions are welcome!
 
 
-If you want to improve this project:
+If you want to improve this project, add new technologies, or improve documentation, follow the contribution workflow below.
 
 
-## Fork Repository
+---
+
+
+## 1. Fork Repository
+
+
+Create your own fork of the repository.
 
 
 ```bash
@@ -814,7 +1259,13 @@ git clone <repository-url>
 ```
 
 
-## Create Feature Branch
+---
+
+
+## 2. Create Feature Branch
+
+
+Create a new branch for your changes:
 
 
 ```bash
@@ -822,21 +1273,39 @@ git checkout -b feature-name
 ```
 
 
-## Make Changes
+---
 
 
-Improve scripts, documentation, or add new technologies.
+## 3. Make Changes
 
 
-## Commit Changes
+Improve:
+
+
+- Installation scripts
+- Documentation
+- Configuration files
+- Verification tools
+- New technology modules
+
+
+---
+
+
+## 4. Commit Changes
 
 
 ```bash
+git add .
+
 git commit -m "Add new feature"
 ```
 
 
-## Push Changes
+---
+
+
+## 5. Push Changes
 
 
 ```bash
@@ -877,6 +1346,12 @@ You are free to:
 - Learn from this project
 
 
+See the complete license:
+
+
+➡️ [LICENSE](LICENSE)
+
+
 ---
 
 
@@ -893,7 +1368,7 @@ If this project helped you:
 🤝 Contribute improvements
 
 
-Your support helps the project grow.
+Your support helps the project grow and motivates further development.
 
 
 ---
@@ -937,7 +1412,7 @@ AI & Machine Learning Student | Full Stack Developer | Developer Tools Enthusias
 Developer Setup Automation Toolkit was created to reduce repetitive setup work and help developers start building faster.
 
 
-Instead of spending hours configuring environments:
+Instead of spending hours configuring development environments:
 
 
 ```text
@@ -950,6 +1425,7 @@ Start building.
 
 
 ---
+
 
 <p align="center">
 
